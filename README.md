@@ -67,3 +67,7 @@ At first every test fails: that is expected. Each question you answer turns its 
 - An order line with a quantity of 2 is one row, not two.
 - A pizza with no toppings has no rows in the topping link table. Questions that add up topping prices need a `LEFT JOIN` so it isn't left out.
 - Your names don't have to match anyone else's: the answers to the questions are the same for any sound design.
+
+## Hand it in
+
+When it works, push your solution to a public repo of your own on GitHub, then paste that repo's address into **Submit your exercise** on the lesson page at [ask-codey.com](https://www.ask-codey.com). That's what completes the lesson. The lesson page shows the Git commands, step by step.
