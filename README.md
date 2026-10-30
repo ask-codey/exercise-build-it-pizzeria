@@ -1,6 +1,6 @@
-# Practice: Build-It Pizzeria
+# Exercise: Build-It Pizzeria
 
-Practice SQL for the lesson **Practice: Build-It Pizzeria** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
+Exercise SQL for the lesson **Exercise: Build-It Pizzeria** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
 
 Build-It Pizzeria lets customers build their own pizza: pick a size, a crust and any toppings. Until now, orders were written on paper slips. You'll design the database for them, write the script that builds it, fill it with the first four orders, and answer the owner's questions.
 
@@ -53,10 +53,10 @@ A pizza costs its size's base price, plus its crust's extra, plus each of its to
 
 ## Check your answers
 
-`PizzeriaPractice.Tests` runs your answers in `Questions.sql` against the BuildItPizzeria database your script built, and compares each one with its question's **Expect** line. Run `BuildItPizzeria.sql` in SSMS first: the tests don't build the database. Nothing is changed: every answer runs inside a transaction that is rolled back. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
+`PizzeriaExercise.Tests` runs your answers in `Questions.sql` against the BuildItPizzeria database your script built, and compares each one with its question's **Expect** line. Run `BuildItPizzeria.sql` in SSMS first: the tests don't build the database. Nothing is changed: every answer runs inside a transaction that is rolled back. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
 
 ```bash
-dotnet test PizzeriaPractice.Tests
+dotnet test PizzeriaExercise.Tests
 ```
 
 At first every test fails: that is expected. Each question you answer turns its test green, and a failing test's message says what the right answer looks like. Your table and column names don't matter. The tests use the BuildItPizzeria database on `localhost`; to use another one, set the `PIZZERIA_CONNECTION` environment variable to its connection string.
